@@ -103,60 +103,6 @@ $background-color_2: #000;
 		text-align: center;
 	}
 }
-.carousel {
-	overflow: hidden;
-	position: relative;
-}
-.carousel-cell {
-	width: 100%;
-	.caption {
-		width: 15em;
-		line-height: 1.1em;
-		opacity: 0.8;
-		right: 1em;
-		bottom: 0em;
-		position: absolute;
-	}
-}
-.flickity-enabled {
-	&:focus {
-		outline: none;
-	}
-}
-.flickity-page-dots {
-	position: absolute;
-	width: 100%;
-	height: 2.5em;
-	bottom: -25px;
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	text-align: center;
-	line-height: 1;
-	.dot {
-		display: inline-block;
-		width: 0.6em;
-		height: 0.6em;
-		margin: 0 8px;
-		background: transparent;
-		border-radius: 50%;
-		opacity: 0.25;
-		cursor: pointer;
-		border: 2px solid #000;
-		transition: opacity 0.2s;
-		&:hover {
-			opacity: 0.75;
-		}
-	}
-	.dot.is-selected {
-		background: #000;
-	}
-}
-.flickity-rtl {
-	.flickity-page-dots {
-		direction: rtl;
-	}
-}
 @media all and (-ms-high-contrast:none) {
 	.games_popular_overbleed_video {
 		video {

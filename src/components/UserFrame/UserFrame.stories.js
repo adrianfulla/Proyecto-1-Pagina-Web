@@ -1,4 +1,4 @@
-import UserFrame from './UserFrame';
+import UserFrame from './UserFrame.jsx';
 
 export default {
   title: 'Componentes/UserFrame',
