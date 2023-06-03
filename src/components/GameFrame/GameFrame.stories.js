@@ -1,4 +1,4 @@
-import GameFrame from './GameFrame.jsx';
+import GameFrame from './GameFrame.jsx'
 
 export default {
   title: 'Componentes/GameFrame',
@@ -9,7 +9,7 @@ export default {
     image: { control: 'string' },
     title: { control: 'string' },
   },
-};
+}
 
 export const GameF = {
   args: {
@@ -17,4 +17,4 @@ export const GameF = {
     image: 'https://cdn.akamai.steamstatic.com/valvesoftware/images/about/popular_alyx.jpg',
     title: 'Half-Life: Alyx',
   },
-};
+}

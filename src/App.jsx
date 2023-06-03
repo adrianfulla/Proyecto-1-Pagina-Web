@@ -1,9 +1,9 @@
-import './App.scss';
-import UserFrame from './components/UserFrame/UserFrame.jsx';
-import Carrousel from './components/Carrousel/Carrousel.jsx';
-import Header from './components/Header/Header.jsx';
-import PopularGame from './components/PopularGame/PopularGame.jsx';
-import GameFrame from './components/GameFrame/GameFrame.jsx';
+import './App.scss'
+import UserFrame from './components/UserFrame/UserFrame.jsx'
+import Carrousel from './components/Carrousel/Carrousel.jsx'
+import Header from './components/Header/Header.jsx'
+import PopularGame from './components/PopularGame/PopularGame.jsx'
+import GameFrame from './components/GameFrame/GameFrame.jsx'
 
 function App() {
   return (
@@ -224,7 +224,6 @@ function App() {
               </div>
               <div className="col_6">
                 <video playsInline autoPlay muted loop poster="https://cdn.akamai.steamstatic.com/valvesoftware/images/videos/hardware-hmd.jpg" alt="Hardware gif">
-                  /
                   <source src="https://cdn.akamai.steamstatic.com/valvesoftware/images/videos/hardware-hmd_fullsize.webm" type="video/webm" media="screen and (min-width:800px)" />
                   <source src="https://cdn.akamai.steamstatic.com/valvesoftware/images/videos/hardware-hmd_fullsize.mp4" type="video/mp4" media="screen and (min-width:800px)" />
                   <source src="https://cdn.akamai.steamstatic.com/valvesoftware/images/videos/hardware-hmd_small.webm" type="video/webm" media="screen and (max-width:799px)" />
@@ -309,7 +308,7 @@ function App() {
       </div>
 
     </>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,4 +1,4 @@
-import Carrousel from './Carrousel.jsx';
+import Carrousel from './Carrousel.jsx'
 
 export default {
   title: 'Componentes/Carrousel',
@@ -7,9 +7,9 @@ export default {
   argTypes: {
 
   },
-};
+}
 
 export const Viewr = {
   args: {
   },
-};
+}

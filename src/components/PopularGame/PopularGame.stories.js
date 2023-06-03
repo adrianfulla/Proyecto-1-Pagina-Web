@@ -1,4 +1,4 @@
-import PopularGame from './PopularGame.jsx';
+import PopularGame from './PopularGame.jsx'
 
 export default {
   title: 'Componentes/PopularGame',
@@ -9,7 +9,7 @@ export default {
     image: { control: 'string' },
     title: { control: 'string' },
   },
-};
+}
 
 export const PopGame = {
   args: {
@@ -17,4 +17,4 @@ export const PopGame = {
     image: 'https://cdn.akamai.steamstatic.com/valvesoftware/images/about/popular_alyx.jpg',
     title: 'Half-Life: Alyx',
   },
-};
+}

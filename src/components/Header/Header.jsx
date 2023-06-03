@@ -1,5 +1,5 @@
-import './Header.scss';
-import logo from '../../assets/Valve_logo.svg';
+import './Header.scss'
+import logo from '../../assets/Valve_logo.svg'
 
 function Header() {
   return (
@@ -15,7 +15,7 @@ function Header() {
       </div>
       <div id="header_background_video" />
     </header>
-  );
+  )
 }
 
-export default Header;
+export default Header
