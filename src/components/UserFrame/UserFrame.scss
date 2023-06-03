@@ -5,79 +5,7 @@ $color_4: #fff;
 $background-color_1: #03a7d6;
 $background-color_2: #000;
 
-/* About page */
-/* IE11 hack, because videos show black bars when sized by height */
-.popular {
-	position: relative;
-}
-.popular_games {
-	>.row {
-		margin: 0;
-	}
-}
-.popular_game {
-	a {
-		h4 {
-			color: $color_1;
-			margin-top: 40px;
-		}
-		p {
-			color: $color_1;
-		}
-		&:hover {
-			h4 {
-				color: $color_2;
-			}
-		}
-	}
-}
-.games_popular_overbleed_wrapper {
-	bottom: 0;
-	top: 0;
-	position: absolute;
-	right: 0;
-}
-.games_popular_overbleed_video {
-	bottom: 0;
-	top: 0;
-	position: absolute;
-	right: -400px;
-	left: -200px;
-	z-index: -1;
-	video {
-		transform: scaleX(-1);
-		height: 100%;
-		object-fit: cover;
-	}
-}
-.genre_defining_game {
-	.game_title {
-		font-weight: 900;
-		line-height: 1.3;
-		font-size: 6vw;
-		margin-bottom: 20px;
-	}
-}
-.portfolio_games {
-	.portfolio_game_text {
-		font-weight: 900;
-		line-height: 1.3;
-		font-size: 6vw;
-		margin-bottom: 20px;
-	}
-}
-.row {
-	.genre_defining_games {
-		margin-top: 10px;
-		margin-bottom: 0px;
-	}
-}
-.game_title {
-	margin-top: -2px;
-	margin-bottom: 0px;
-	font-weight: 700;
-	line-height: 1.3;
-}
+
 .steam_section {
 	background-color: $background-color_1;
 	padding: 50px 0;
@@ -103,80 +31,9 @@ $background-color_2: #000;
 		text-align: center;
 	}
 }
-.carousel {
-	overflow: hidden;
-	position: relative;
-}
-.carousel-cell {
-	width: 100%;
-	.caption {
-		width: 15em;
-		line-height: 1.1em;
-		opacity: 0.8;
-		right: 1em;
-		bottom: 0em;
-		position: absolute;
-	}
-}
-.flickity-enabled {
-	&:focus {
-		outline: none;
-	}
-}
-.flickity-page-dots {
-	position: absolute;
-	width: 100%;
-	height: 2.5em;
-	bottom: -25px;
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	text-align: center;
-	line-height: 1;
-	.dot {
-		display: inline-block;
-		width: 0.6em;
-		height: 0.6em;
-		margin: 0 8px;
-		background: transparent;
-		border-radius: 50%;
-		opacity: 0.25;
-		cursor: pointer;
-		border: 2px solid #000;
-		transition: opacity 0.2s;
-		&:hover {
-			opacity: 0.75;
-		}
-	}
-	.dot.is-selected {
-		background: #000;
-	}
-}
-.flickity-rtl {
-	.flickity-page-dots {
-		direction: rtl;
-	}
-}
-@media all and (-ms-high-contrast:none) {
-	.games_popular_overbleed_video {
-		video {
-			height: auto;
-		}
-	}
-}
+
+
 @media (min-width: 820px) {
-	.genre_defining_game {
-		.game_title {
-			font-size: 1.8vw;
-			margin-bottom: 0;
-		}
-	}
-	.portfolio_games {
-		.portfolio_game_text {
-			font-size: 1.8vw;
-			margin-bottom: 0;
-		}
-	}
 	.steam_section {
 		>.row {
 			width: 100%;
@@ -202,16 +59,6 @@ $background-color_2: #000;
 	}
 }
 @media (min-width: 1200px) {
-	.genre_defining_game {
-		.game_title {
-			font-size: 18px;
-		}
-	}
-	.portfolio_games {
-		.portfolio_game_text {
-			font-size: 18px;
-		}
-	}
 	.steam_section {
 		width: 1360px;
 		margin-left: -80px;
@@ -223,54 +70,6 @@ $background-color_2: #000;
 @media (min-width: 668px) {
 	.steam_section {
 		padding: 25px 0 0;
-	}
-}
-@media (max-width: 819px) {
-	#content {
-		>.image.dota_tournament {
-			width: 160%;
-			margin: 0 -30%;
-			.image_caption {
-				width: 50%;
-				margin: 0 25%;
-			}
-		}
-	}
-	.flickity-viewport {
-		margin-bottom: 1.5em;
-	}
-	.flickity-page-dots {
-		display: flex;
-		justify-content: space-between;
-		align-content: stretch;
-		gap: 0.2em;
-		bottom: 0em;
-		height: 1em;
-		.dot {
-			width: 100%;
-			border-radius: 0;
-			margin: 0;
-			padding: 0;
-			border: 0;
-			background-color: $background-color_2;
-			height: 0.2em;
-		}
-		.dot.is-selected {
-			opacity: 0.5;
-		}
-	}
-	.carousel-cell {
-		.caption {
-			width: auto;
-			right: 0;
-			height: 3em;
-			padding-left: 2em;
-			padding-right: 2em;
-			position: relative;
-			&:before {
-				display: none;
-			}
-		}
 	}
 }
 @media (min-width: 1600px) {

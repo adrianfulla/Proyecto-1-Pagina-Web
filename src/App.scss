@@ -5,8 +5,6 @@ $color_4: #fff;
 $background-color_1: #03a7d6;
 $background-color_2: #000;
 
-/* About page */
-/* IE11 hack, because videos show black bars when sized by height */
 .popular {
 	position: relative;
 }
@@ -115,35 +113,6 @@ $background-color_2: #000;
 		.game_title {
 			font-size: 1.8vw;
 			margin-bottom: 0;
-		}
-	}
-	.portfolio_games {
-		.portfolio_game_text {
-			font-size: 1.8vw;
-			margin-bottom: 0;
-		}
-	}
-	.steam_section {
-		>.row {
-			width: 100%;
-			margin: 0 5vw;
-		}
-		.steam_stat {
-			padding-top: 45px;
-		}
-		.steam_logo_about {
-			width: 100%;
-			margin: 20px auto 50px;
-		}
-	}
-	.steam_stat {
-		h4 {
-			font-size: 2vw;
-			text-align: left;
-		}
-		h3 {
-			font-size: 4vw;
-			text-align: left;
 		}
 	}
 }

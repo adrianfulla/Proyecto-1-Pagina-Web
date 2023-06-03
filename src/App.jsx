@@ -1,23 +1,14 @@
-import logo from './assets/Valve_logo.svg';
 import './App.scss';
 import UserFrame from './components/UserFrame/UserFrame.jsx';
 import Carrousel from './components/Carrousel/Carrousel.jsx';
+import Header from './components/Header/Header.jsx';
+import PopularGame from './components/PopularGame/PopularGame.jsx';
+import GameFrame from './components/GameFrame/GameFrame.jsx';
 
 function App() {
   return (
     <>
-      <header className="main_header">
-        <div className="header_inner_wrapper">
-          <div className="top_nav">
-            <div className="logo">
-              <a href="https://www.valvesoftware.com/es/">
-                <img src={logo} alt="Logo" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div id="header_background_video" />
-      </header>
+      <Header />
       <div id="content-outer-wrapper">
         <div id="content-inner-wrapper">
           <div id="content">
@@ -51,56 +42,26 @@ function App() {
                 <div className="popular_games">
                   <div className="row">
                     <div className="popular_game col_6">
-                      <a href="https://store.steampowered.com/app/546560/HalfLife_Alyx/" target="_blank" rel="noreferrer">
-                        <img src="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/popular_alyx.jpg" alt="Alyx" />
-                      </a>
-                      <h4>
-                        Half-Life: Alyx
-                      </h4>
+                      <PopularGame link="https://store.steampowered.com/app/546560/HalfLife_Alyx/" image="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/popular_alyx.jpg" title="Half-Life Alyx" />
                     </div>
                     <div className="popular_game col_6">
-                      <a href="https://store.steampowered.com/app/1046930/Dota_Underlords/" target="_blank" rel="noreferrer">
-                        <img src="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/popular_underlords.jpg" alt="Dota Underlords" />
-                      </a>
-                      <h4>
-                        Dota Underlords
-                      </h4>
+                      <PopularGame link="https://store.steampowered.com/app/1046930/Dota_Underlords/" image="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/popular_underlords.jpg" title="Dota Underlords" />
                     </div>
                   </div>
                   <div className="row">
                     <div className="popular_game col_6">
-                      <a href="http://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank" rel="noreferrer">
-                        <img src="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/popular_csgo.jpg" alt="CSGO" />
-                      </a>
-                      <h4>
-                        Counter-Strike: Global Offensive
-                      </h4>
+                      <PopularGame link="http://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" image="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/popular_csgo.jpg" title="Counter-Strike: Global Offensive" />
                     </div>
                     <div className="popular_game col_6">
-                      <a href="http://store.steampowered.com/app/570/Dota_2/" target="_blank" rel="noreferrer">
-                        <img src="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/popular_dota2.jpg" alt="Dota 2" />
-                      </a>
-                      <h4>
-                        Dota 2
-                      </h4>
+                      <PopularGame link="http://store.steampowered.com/app/570/Dota_2/" image="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/popular_dota2.jpg" title="Dota 2" />
                     </div>
                   </div>
                   <div className="row">
                     <div className="popular_game col_6">
-                      <a href="http://store.steampowered.com/app/583950/Artifact/" target="_blank" rel="noreferrer">
-                        <img src="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/upcoming_artifact.jpg" alt="Upcoming artifact" />
-                      </a>
-                      <h4>
-                        Artifact
-                      </h4>
+                      <PopularGame link="http://store.steampowered.com/app/583950/Artifact/" image="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/upcoming_artifact.jpg" title="Artifact" />
                     </div>
                     <div className="popular_game col_6">
-                      <a href="http://store.steampowered.com/app/440/Team_Fortress_2/" target="_blank" rel="noreferrer">
-                        <img src="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/popular_tf2.jpg" alt="Team Fortress 2" />
-                      </a>
-                      <h4>
-                        Team Fortress 2
-                      </h4>
+                      <PopularGame link="http://store.steampowered.com/app/440/Team_Fortress_2/" image="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/popular_tf2.jpg" title="Team Fortress 2" />
                     </div>
                   </div>
                   <div className="genre_defining_games">
@@ -111,55 +72,25 @@ function App() {
                     </p>
                     <div className="row">
                       <div className="genre_defining_game col_3">
-                        <a href="http://store.steampowered.com/app/70/HalfLife/" target="_blank" rel="noreferrer">
-                          <img src="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/catalog/catalog_hl.jpg" alt="Half-Life" />
-                        </a>
-                        <h5 className="game_title">
-                          Half-Life
-                        </h5>
+                        <GameFrame link="http://store.steampowered.com/app/70/HalfLife/" image="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/catalog/catalog_hl.jpg" title="Half-Life" />
                       </div>
 
                       <div className="genre_defining_game col_3">
-                        <a href="http://store.steampowered.com/app/500/Left_4_Dead/" target="_blank" rel="noreferrer">
-                          <img src="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/catalog/catalog_l4d.jpg" alt="Left 4 Dead" />
-                        </a>
-                        <h5 className="game_title">
-                          Left 4 Dead
-                        </h5>
+                        <GameFrame link="http://store.steampowered.com/app/500/Left_4_Dead/" image="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/catalog/catalog_l4d.jpg" title="Left 4 Dead" />
                       </div>
                       <div className="genre_defining_game col_3">
-                        <a href="http://store.steampowered.com/app/400/Portal/" target="_blank" rel="noreferrer">
-                          <img src="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/catalog/catalog_portal.jpg" alt="Portal" />
-                        </a>
-                        <h5 className="game_title">
-                          Portal
-                        </h5>
+                        <GameFrame link="http://store.steampowered.com/app/400/Portal/" image="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/catalog/catalog_portal.jpg" title="Portal" />
                       </div>
                     </div>
                     <div className="row">
                       <div className="genre_defining_game col_3">
-                        <a href="http://store.steampowered.com/app/220/HalfLife_2/" target="_blank" rel="noreferrer">
-                          <img src="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/catalog/catalog_hl2.jpg" alt="Half-Life 2" />
-                        </a>
-                        <h5 className="game_title">
-                          Half-Life 2
-                        </h5>
+                        <GameFrame link="http://store.steampowered.com/app/220/HalfLife_2/" image="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/catalog/catalog_hl2.jpg" title="Half-Life 2" />
                       </div>
                       <div className="genre_defining_game col_3">
-                        <a href="https://store.steampowered.com/app/550/Left_4_Dead_2/" target="_blank" rel="noreferrer">
-                          <img src="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/catalog/catalog_l4d2.jpg" alt="Left 4 Dead 2" />
-                        </a>
-                        <h5 className="game_title">
-                          Left 4 Dead 2
-                        </h5>
+                        <GameFrame link="https://store.steampowered.com/app/550/Left_4_Dead_2/" image="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/catalog/catalog_l4d2.jpg" title="Left 4 Dead 2" />
                       </div>
                       <div className="genre_defining_game col_3">
-                        <a href="https://store.steampowered.com/app/620/Portal_2/" target="_blank" rel="noreferrer">
-                          <img src="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/catalog/catalog_p2.jpg" alt="Portal 2" />
-                        </a>
-                        <h5 className="game_title">
-                          Portal 2
-                        </h5>
+                        <GameFrame link="https://store.steampowered.com/app/620/Portal_2/" image="https://cdn.akamai.steamstatic.com/valvesoftware/images/about/catalog/catalog_p2.jpg" title="Portal 2" />
                       </div>
                     </div>
                   </div>

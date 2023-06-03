@@ -12,7 +12,7 @@ export default {
 
 export const First = {
   args: {
-    UsersOnline: '20039248',
-    UsersInGame: '4551088',
+    UsersOnline: 20039248,
+    UsersInGame: 4551088,
   },
 };
