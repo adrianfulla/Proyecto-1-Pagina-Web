@@ -48,12 +48,4 @@ https://uvgenios.online/21592/Proyecto1PaginaWeb/
 - <img src="https://camo.githubusercontent.com/a2ebaaedf9af41416a2717b3a28f405b39535397f4463c5c5119146c84c240f9/68747470733a2f2f706f73746373732e6f72672f6c6f676f2e737667" width="30">[ PostCss](https://postcss.org/)
 - <img src="https://avatars.githubusercontent.com/u/22632046?s=200&v=4" width="30">[ Storybook](https://storybook.js.org/)
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/1200px-ESLint_logo.svg.png" width="30">[ EsLint](https://eslint.org/)
-
-
-
-
-
-
-
-
-
+- <img src="https://camo.githubusercontent.com/1708539168f87946bc5888f59a74c537f3235d393c97549d6bb62390fdd1b79d/68747470733a2f2f626162656c6a732e696f2f696d672f66617669636f6e2e706e67" width="30">[ Babel](https://babeljs.io/)
