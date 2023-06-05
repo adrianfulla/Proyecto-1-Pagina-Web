@@ -49,3 +49,17 @@ https://uvgenios.online/21592/Proyecto1PaginaWeb/
 - <img src="https://avatars.githubusercontent.com/u/22632046?s=200&v=4" width="30">[ Storybook](https://storybook.js.org/)
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/1200px-ESLint_logo.svg.png" width="30">[ EsLint](https://eslint.org/)
 - <img src="https://camo.githubusercontent.com/1708539168f87946bc5888f59a74c537f3235d393c97549d6bb62390fdd1b79d/68747470733a2f2f626162656c6a732e696f2f696d672f66617669636f6e2e706e67" width="30">[ Babel](https://babeljs.io/)
+
+## Requisitos Logrados
+- Criterio subjetivo] (40 puntos) Según qué tan similar sea su diseño al sitio en el que se basaron, deben enviar el sitio en los comentarios.
+- (10 puntos) Si entregan un link a su proyecto publicado en el servidor de la clase
+- (20 puntos) Por explicar a través de un README bien formateado (hint) qué tecnologías implementaron
+- (5 puntos) Por implementar React
+- (15 puntos) Por implementar ESLint con las reglas:
+    'plugin:react/recommended',
+    'airbnb-base',
+    'airbnb/rules/react',
+Su código no puede tener errores para que cuente
+Deben proveer un script "lint"
+- (5 puntos) Por implementar un pre procesador de css como emotion, linaria, saas o less
+- (10 puntos) Por implementar al menos un test visual sobre su código usando storybook
